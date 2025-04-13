@@ -1,7 +1,7 @@
 ---
 name: version-control-best-practices.mdc
 description: Best practices for using version control
-globs: **/*.{ts,tsx,js,jsx}
+globs: *
 alwaysApply: false
 ---
 
