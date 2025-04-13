@@ -1,9 +1,4 @@
 ---
-description: 
-globs: 
-alwaysApply: true
----
----
 name: solid-best-practices.mdc
 description: Best practices for applying SOLID principles
 globs: **/*.{php}
