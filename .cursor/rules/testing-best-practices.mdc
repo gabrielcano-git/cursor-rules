@@ -1,11 +1,16 @@
 ---
 name: testing-best-practices.mdc
-description: Best practices for writing tests
-globs: **/*.{ts,tsx,js,jsx}
+description: Best practices for writing tests in PHP with PHPUnit
+globs: **/*.{php,test.php,Test.php,spec.php}
 alwaysApply: false
 ---
 
-- Write unit tests for individual functions and classes.
-- Implement integration tests to ensure components work together.
-- Use end-to-end tests to validate user flows.
-- Aim for high test coverage but focus on critical paths.
+- Use PHPUnit to write unit tests for individual classes and methods.
+- Create specific Test Cases for each class with clear and descriptive test methods.
+- Implement integration tests to ensure components work together correctly.
+- Use mocks and stubs to isolate external dependencies during unit tests.
+- Configure fixtures and data providers to reuse test data.
+- Utilize annotations such as @dataProvider, @depends, and @group to organize tests.
+- Implement end-to-end (E2E) tests to validate complete user flows.
+- Aim for high test coverage, but prioritize critical paths and business logic.
+- Run tests regularly as part of the CI/CD pipeline.
