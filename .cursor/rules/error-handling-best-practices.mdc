@@ -1,0 +1,10 @@
+---
+name: error-handling-best-practices.mdc
+description: Best practices for error handling
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+
+- Use try-catch blocks to handle exceptions gracefully.
+- Implement custom error classes for specific error types.
+- Log errors with sufficient context for debugging.

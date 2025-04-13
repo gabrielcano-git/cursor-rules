@@ -1,0 +1,10 @@
+---
+name: function-best-practices.mdc
+description: Best practices for writing functions
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+
+- Keep functions small and focused on a single task.
+- Use pure functions where possible to improve testability and predictability.
+- Name functions clearly to indicate their purpose and what they return.

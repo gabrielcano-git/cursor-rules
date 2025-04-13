@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+name: dry-best-practices.mdc
+description: Best practices for applying the DRY principle
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+
+- Extract repeated code into reusable functions or classes.
+- Use higher-order functions to abstract common patterns.
+- Implement generic solutions for similar problems across the codebase.
+- Utilize configuration files for settings that might change across environments.

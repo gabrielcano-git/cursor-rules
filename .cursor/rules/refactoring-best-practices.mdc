@@ -1,0 +1,10 @@
+---
+name: refactoring-best-practices.mdc
+description: Best practices for code refactoring
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+
+- Refactor code regularly to improve readability and maintainability.
+- Use automated tools to identify areas for refactoring.
+- Ensure tests pass before and after refactoring.

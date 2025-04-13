@@ -1,0 +1,10 @@
+---
+name: naming-best-practices.mdc
+description: Best practices for naming conventions
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+
+- Use descriptive and meaningful names for variables, functions, and classes.
+- Follow a consistent naming convention (e.g., camelCase for variables, PascalCase for classes).
+- Avoid abbreviations unless they are widely understood within the team.

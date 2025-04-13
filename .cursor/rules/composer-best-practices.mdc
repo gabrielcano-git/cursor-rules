@@ -1,0 +1,13 @@
+---
+description: 
+globs: **/*.{json}
+alwaysApply: false
+---
+- Keep your `composer.json` file organized and up-to-date
+- Use semantic versioning for dependencies
+- Regularly update dependencies to patch security vulnerabilities
+- Use `composer.lock` file in production for consistent deployments
+- Utilize Composer's autoloading features for efficient class loading
+- Implement custom repositories for private packages
+- Use Composer scripts for automating common tasks
+- Optimize autoloader by running `composer dump-autoload -o` in production

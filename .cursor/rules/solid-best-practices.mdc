@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+name: solid-best-practices.mdc
+description: Best practices for applying SOLID principles
+globs: **/*.{php}
+alwaysApply: false
+---
+
+- **SRP**: Ensure each class or function has a single responsibility. Break down large classes into smaller, focused ones.
+- **OCP**: Design classes to be extensible without modification. Use interfaces and abstract classes for this purpose.
+- **LSP**: Ensure subclasses can be used interchangeably with their base classes without affecting the correctness of the program.
+- **ISP**: Create specific interfaces rather than large, general ones. Clients should not be forced to depend on interfaces they do not use.
+- **DIP**: Depend on abstractions, not concretions. Use dependency injection to manage dependencies.

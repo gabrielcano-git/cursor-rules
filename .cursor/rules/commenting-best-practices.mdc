@@ -1,0 +1,10 @@
+---
+name: commenting-best-practices.mdc
+description: Best practices for writing comments
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+
+- Write comments to explain complex logic or non-obvious decisions.
+- Keep comments up-to-date with code changes.
+- Use JSDoc for documenting functions, classes, and modules.

@@ -1,0 +1,11 @@
+---
+name: testing-best-practices.mdc
+description: Best practices for writing tests
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+
+- Write unit tests for individual functions and classes.
+- Implement integration tests to ensure components work together.
+- Use end-to-end tests to validate user flows.
+- Aim for high test coverage but focus on critical paths.

@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+---
+name: demeter-best-practices.mdc
+description: Best practices for applying the Law of Demeter
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+
+- Minimize the use of method chaining to reduce coupling.
+- Design methods to interact only with immediate neighbors.
+- Use encapsulation to hide internal implementation details.
