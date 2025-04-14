@@ -2,7 +2,7 @@
 name: version-control-best-practices.mdc
 description: Best practices for using version control
 globs: *
-alwaysApply: false
+alwaysApply: true
 ---
 
 - Commit frequently with meaningful commit messages.
