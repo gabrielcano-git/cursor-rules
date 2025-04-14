@@ -1,7 +1,7 @@
 ---
 name: function-best-practices.mdc
 description: Best practices for writing functions
-globs: **/*.{ts,tsx,js,jsx}
+globs: **/*.{js,php}
 alwaysApply: false
 ---
 
