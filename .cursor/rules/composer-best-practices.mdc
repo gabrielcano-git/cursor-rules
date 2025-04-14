@@ -1,7 +1,7 @@
 ---
-description: 
-globs: **/*.{json}
-alwaysApply: false
+description: PHP Composer best practices for dependency management and autoloading optimization.
+globs: **/composer.{json}
+alwaysApply: true
 ---
 - Keep your `composer.json` file organized and up-to-date
 - Use semantic versioning for dependencies
