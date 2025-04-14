@@ -1,12 +1,7 @@
 ---
-description: 
-globs: 
-alwaysApply: true
----
----
 name: dry-best-practices.mdc
 description: Best practices for applying the DRY principle
-globs: **/*.{ts,tsx,js,jsx}
+globs: **/*.{js,php}
 alwaysApply: false
 ---
 
