@@ -1,13 +1,7 @@
 ---
-description: 
-globs: 
-alwaysApply: false
----
-
----
 name: demeter-best-practices.mdc
 description: Best practices for applying the Law of Demeter
-globs: **/*.{ts,tsx,js,jsx}
+globs: **/*.{js,php}
 alwaysApply: false
 ---
 
