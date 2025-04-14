@@ -2,7 +2,7 @@
 name: naming-best-practices.mdc
 description: Best practices for naming conventions
 globs: **/*.{php,js,ctp}
-alwaysApply: false
+alwaysApply: true
 ---
 
 - Use descriptive and meaningful names for variables, functions, and classes.

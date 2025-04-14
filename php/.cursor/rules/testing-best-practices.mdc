@@ -2,7 +2,7 @@
 name: testing-best-practices.mdc
 description: Best practices for writing tests in PHP with PHPUnit
 globs: **/*.{php,test.php,Test.php,spec.php}
-alwaysApply: false
+alwaysApply: true
 ---
 
 - Use PHPUnit to write unit tests for individual classes and methods.

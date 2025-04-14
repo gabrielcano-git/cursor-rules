@@ -1,7 +1,7 @@
 ---
 name: error-handling-best-practices.mdc
 description: Best practices for error handling
-globs: **/*.{js,php}
+globs: **/*.{js,ts,py,php}
 alwaysApply: false
 ---
 

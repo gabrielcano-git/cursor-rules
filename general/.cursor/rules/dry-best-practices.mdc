@@ -1,8 +1,8 @@
 ---
 name: dry-best-practices.mdc
 description: Best practices for applying the DRY principle
-globs: **/*.{js,php}
-alwaysApply: false
+globs: **/*.{js,ts,php}
+alwaysApply: true
 ---
 
 - Extract repeated code into reusable functions or classes.

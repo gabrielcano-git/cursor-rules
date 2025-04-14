@@ -1,8 +1,8 @@
 ---
 name: solid-best-practices.mdc
 description: Best practices for applying SOLID principles
-globs: **/*.{php}
-alwaysApply: false
+globs: **/*.{js,ts,py,php}
+alwaysApply: true
 ---
 
 - **SRP**: Ensure each class or function has a single responsibility. Break down large classes into smaller, focused ones.

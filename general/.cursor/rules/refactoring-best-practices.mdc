@@ -1,8 +1,8 @@
 ---
 name: refactoring-best-practices.mdc
 description: Best practices for code refactoring
-globs: **/*.{js,php}
-alwaysApply: false
+globs: **/*.{js,ts,py,php}
+alwaysApply: true
 ---
 
 - Refactor code regularly to improve readability and maintainability.
